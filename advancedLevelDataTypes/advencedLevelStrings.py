@@ -1,0 +1,27 @@
+print("python".upper())
+print("PYTHON".lower())
+print("araba amaç arkadaş".replace("a","e"))
+print("Python programlama dili".replace(" ","-"))
+print("Selçuk".replace("çuk","man"))
+print("Selçuk".startswith("S"))
+print("Selçuk".endswith("u"))
+print("Selçuk".endswith("uk"))
+liste="Python programlama dili".split(" ")
+print(liste)
+liste2="Python-C-C#-Java".split("-")
+print(liste2)
+print("                Selçuk              ".strip())
+print("                Selçuk              ".lstrip())
+print("                Selçuk              ".rstrip())
+print("aaaaaaaaaaaaSelçuk              ".strip("a"))
+liste =["24","11","1994"]
+print("/".join(liste))
+liste=["T","B","M","M"]
+print(".".join(liste))
+print("Python programlama dili".count("a"))
+print("Python programlama dili".count(" "))
+print("Python programlama dili".count("a",12)) # 12. indexten itibaren say
+print("Python programlama dili".count("a",13)) # 13. indexten itibaren say
+print("araba".find("a"))
+print("araba".rfind("a"))
+print("araba".find("s"))
