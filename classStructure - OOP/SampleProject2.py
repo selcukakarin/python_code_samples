@@ -1,5 +1,5 @@
 import time
-class Computer:
+class Computer():
     def __init__(self,displayCard="GeForce GTX1660Ti ",processor="i7",ram=16,ssd=256,pcStatus="Closed"):
         self.displayCard=displayCard
         self.processor=processor
@@ -26,7 +26,7 @@ class Computer:
             2. Pc open
             3. Pc close
             4. Change a part
-            q. Exit
+            q. Quit
         """)
     def openPc(self):
         if(self.pcStatus == "Opened"):
