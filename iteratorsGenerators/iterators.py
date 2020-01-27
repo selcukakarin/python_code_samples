@@ -1,26 +1,26 @@
-# # iterator oluşturma
-# liste=[1,14,3,4,5]
-# # print(dir(liste))
-# iterator=iter(liste)
-# print(iterator)
-# print(next(iterator))
-# print(next(iterator))
-# print(next(iterator))
-# print(next(iterator))
-# print(next(iterator))
-# # print(next(iterator))           #Stop iteration error
+# iterator oluşturma
+liste=[1,14,3,4,5]
+# print(dir(liste))
+iterator=iter(liste)
+print(iterator)
+print(next(iterator))
+print(next(iterator))
+print(next(iterator))
+print(next(iterator))
+print(next(iterator))
+# print(next(iterator))           #Stop iteration error
 
-# liste=[1,3,5,8,9,190]
-# for i in liste:
-#     print(i)
+liste=[1,3,5,8,9,190]
+for i in liste:
+    print(i)
 
-#  ########## Yukarıdaki for döngüsünün yaptığı iş
-# iterator=iter(liste)
-# while True:
-#     try:
-#          print(next(iterator))
-#     except StopIteration:
-#         break
+ ########## Yukarıdaki for döngüsünün yaptığı iş
+iterator=iter(liste)
+while True:
+    try:
+         print(next(iterator))
+    except StopIteration:
+        break
 
 class Kumanda():
     def __init__(self,kanalListesi):

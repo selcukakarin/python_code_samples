@@ -10,8 +10,6 @@ class Calisan:
     def departmaniDegistir(self,yeniDepartman):
         self.departman=yeniDepartman
 
-
-
 class Yonetici(Calisan):
     def __init__(self,isim,maas,departman,kisiSayisi=3):
         super().__init__(isim,maas,departman)
