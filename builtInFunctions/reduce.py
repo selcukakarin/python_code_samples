@@ -1,7 +1,7 @@
 from functools import reduce
-# def toplama(x,y):
-#     return x+y
-# print(reduce(toplama,[5,10,15,20]))
+def toplama(x,y):
+    return x+y
+print(reduce(toplama,[5,10,15,20]))
 
 print(reduce(lambda x,y:x**y,[1,2,3,4]))
 

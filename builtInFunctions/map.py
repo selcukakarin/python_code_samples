@@ -1,8 +1,8 @@
-# def double(x):
-#     return x*2
-# print(list(map(double,[1,2,3,4,5])))
+def double(x):
+    return x*2
+print(list(map(double,[1,2,3,4,5])))
 
-# print(list(map(lambda x:x**2,(1,2,3,4,5,6,7,8))))
+print(list(map(lambda x:x**2,(1,2,3,4,5,6,7,8))))
 
 liste1=[1,2,3,4]
 liste2=[5,6,7,8]

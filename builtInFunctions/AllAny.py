@@ -14,6 +14,7 @@ def herhangi(liste):
         if i:
             return True
     return False
+    
 print(herhangi([True,False,True,False,True]))
 
 liste2=[0,0,0,0,0,0]

@@ -1,60 +1,61 @@
-# def selamla(isim):
-#     print("merhaba",isim)
-# selamla("selçuk")
+def selamla(isim):
+    print("merhaba",isim)
+selamla("selçuk")
 
-# merhaba=selamla         #fonksiyonların değişken olarak tanımlanması
+merhaba=selamla         #fonksiyonların değişken olarak tanımlanması
 
-# print(selamla)
-# print(merhaba)
+print(selamla)
+print(merhaba)
 
-# merhaba("Alican")
+merhaba("Alican")
 
-# del selamla
+del selamla
 
-# print(merhaba)
-# print(selamla)
+print(merhaba)
+print(selamla)
 
-##########
+#########
 
-# def fonksiyon():
-#     def fonksiyon2():
-#         print("küçük fonksiyondan herkese selamlar")
-#     fonksiyon2()
-#     print("Büyük fonksiyondan herkese merhaba")
-# fonksiyon()
+def fonksiyon():
+    def fonksiyon2():
+        print("küçük fonksiyondan herkese selamlar")
+    fonksiyon2()
+    print("Büyük fonksiyondan herkese merhaba")
+fonksiyon()
 
-# def fonksiyon(*args):
-#     def toplama(args):
-#         toplam=0
-#         for i in args:
-#             toplam+=i
-#         return toplam
-#     print(toplama(args))
-# fonksiyon(1,2,3,4,5,6,7)
+def fonksiyon(*args):
+    def toplama(args):
+        toplam=0
+        for i in args:
+            toplam+=i
+        return toplam
+    print(toplama(args))
+fonksiyon(1,2,3,4,5,6,7)
 
-# def anaFonksiyon(islemAdi):
-#     def toplama(*args):
-#         toplam=0
-#         for i in args:
-#             toplam+=i
-#         return toplam
-#     def carpim(*args):
-#         carpim=1
-#         for i in args:
-#             carpim*=i
-#         return carpim
-#     if islemAdi=="toplama":     #fonksiyon içinden return ile fonksiyon gönderdik
-#         return toplama
-#     else:
-#         return carpim
-# fonk=anaFonksiyon("toplama")
-# print(fonk(1,2,3,4,5,6))
+def anaFonksiyon(islemAdi):
+    def toplama(*args):
+        toplam=0
+        for i in args:
+            toplam+=i
+        return toplam
+    def carpim(*args):
+        carpim=1
+        for i in args:
+            carpim*=i
+        return carpim
+    if islemAdi=="toplama":     #fonksiyon içinden return ile fonksiyon gönderdik
+        return toplama
+    else:
+        return carpim
+        
+fonk=anaFonksiyon("toplama")
+print(fonk(1,2,3,4,5,6))
 
-# fonk2=anaFonksiyon("carpim")
-# print(fonk2(1,2,3,4,5))
+fonk2=anaFonksiyon("carpim")
+print(fonk2(1,2,3,4,5))
 
 
-### Bir fonksiyona argüman olarak fonksiyon gönderme
+## Bir fonksiyona argüman olarak fonksiyon gönderme
 def toplama(a,b):
     return a+b
 def cikarma(a,b):

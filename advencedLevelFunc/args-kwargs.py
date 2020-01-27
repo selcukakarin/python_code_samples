@@ -15,7 +15,7 @@ def fonksiyon3(**kwargs):
         print(kwargs)
 fonksiyon3(isim="Selçuk",soyisim="Akarın",numara=11)
 
-def fonksiyon4(**kwargs):               #kwargs göndeilen değerleri sözlük yapısı şekline çevirir
+def fonksiyon4(**kwargs):               #kwargs gönderilen değerleri sözlük yapısı şekline çevirir
         for i,j in kwargs.items():
                 print("Argüman ismi: ",i," Argüman değeri: ",j)
 fonksiyon4(isim="Selçuk",soyisim="Akarın",numara=11)

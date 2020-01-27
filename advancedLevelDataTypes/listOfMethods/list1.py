@@ -2,10 +2,10 @@ liste=[1,2,3,4,5]
 liste.append(6)
 print(liste)
 
-# liste1=[3,5,5,8,9,10]
-# liste2=["Selçuk","Deneme",1,55]
-# liste1.extend(liste2)       #extend bir listeyi diğer listeye ekler
-# print(liste1)
+liste1=[3,5,5,8,9,10]
+liste2=["Selçuk","Deneme",1,55]
+liste1.extend(liste2)       #extend bir listeyi diğer listeye ekler
+print(liste1)
 
 liste=[1,2,3,4,5]
 liste.insert(3,"İstanbul")

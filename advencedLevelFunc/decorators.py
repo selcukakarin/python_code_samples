@@ -12,7 +12,7 @@ def zamanHesapla(func):
         return sonuc
     return wrapper
 
-@zamanHesapla       # zamanHesapla decorator'ımızı karelereHesapla fonksiyonumuza ekledik
+@zamanHesapla       # zamanHesapla decorator'ımızı kareleriHesapla fonksiyonumuza ekledik
 def kareleriHesapla(sayilar):
     sonuc=list()
     # baslama=time.time()         # for baslamadan önce programın harcadığı zaman
@@ -21,6 +21,7 @@ def kareleriHesapla(sayilar):
     # bitis=time.time()       # for'dan sonra programın harcadığı zaman
     # print("Bu fonksiyon "+str(bitis-baslama)+" saniye sürdü.")
     return sonuc
+
 @zamanHesapla
 def kupleriHesapla(sayilar):
     sonuc=list()

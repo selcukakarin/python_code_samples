@@ -12,16 +12,16 @@ x.add("Selçuk")
 for i in x:
     print(i)
 
-# kume1={1,2,2,3,4,5,6}
-# kume2={7,8,8,9,2,5,0,3,21,1}
-# print(kume1.difference(kume2))
-# print(kume1.difference_update(kume2))
-# print(kume1)
+kume1={1,2,2,3,4,5,6}
+kume2={7,8,8,9,2,5,0,3,21,1}
+print(kume1.difference(kume2))
+print(kume1.difference_update(kume2))
+print(kume1)
 
-# kume1={1,2,2,3,4,5,6}
-# kume2={7,8,8,9,2,5,0,3,21,1}
-# kume1.discard(2)      #kümeden eleman çıkart
-# print(kume1)
+kume1={1,2,2,3,4,5,6}
+kume2={7,8,8,9,2,5,0,3,21,1}
+kume1.discard(2)      #kümeden eleman çıkart
+print(kume1)
 
 kume1={1,2,2,3,4,5,6}
 kume2={7,8,8,9,2,5,0,3,21,1}
