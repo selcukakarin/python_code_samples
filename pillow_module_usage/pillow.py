@@ -1,0 +1,15 @@
+# pillow tutorial https://pillow.readthedocs.io/en/4.2.x/handbook/tutorial.html
+from PIL import Image, ImageFilter
+image = Image.open("hawai.jpg")
+#image.show()
+image.save("hawai2.jpg")
+image.rotate(180).save("hawai3.jpg")
+image.rotate(90).save("hawai4.jpg")
+image.convert(mode="L").save("hawai5.jpg")
+degistir = (960,600)
+image.thumbnail(degistir)
+image.save("hawai6.jpg")
+image.filter(ImageFilter.GaussianBlur(5)).save("hawai7.jpg")
+kırpılacak_alan = (523,9,548,162)
+image2=Image.open("city.jpg")
+image2.crop(kırpılacak_alan).save("building.jpg")
