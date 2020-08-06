@@ -1,5 +1,5 @@
 def ebob(sayi1,sayi2):
-    ebob=1;
+    ebob=1
     if(sayi1==sayi2):
         return sayi1
     else:
